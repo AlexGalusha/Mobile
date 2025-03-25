@@ -1,0 +1,8 @@
+# Normalize line endings for Kotlin files
+*.kt text=auto
+
+# Ensure shell scripts have LF endings
+*.sh text eol=lf
+
+# Keep Windows batch files with CRLF
+*.bat text eol=crlf
